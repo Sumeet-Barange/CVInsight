@@ -1,12 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    turbo: {
-      resolveAlias: {
-        canvas: false,
-      },
-    },
-  },
-};
+const nextConfig = {};
 
 export default nextConfig;
