@@ -24,7 +24,7 @@ export default function Home() {
               href={session ? "/dashboard" : "/api/auth/signin"}
               className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition shadow-lg flex items-center gap-2"
             >
-              {session ? "Analyse Your Resume" : "Get Started for Free"}
+              {session ? "Analyze Your Resume" : "Get Started for Free"}
               
             </Link>
             
@@ -43,8 +43,8 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why use CVInsight?</h2>
-            <p className="text-gray-500">Everything you need to crack your dream job.</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why CVInsight?</h2>
+            <p className="text-gray-500">Intelligent resume analysis built for data-driven career decisions.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-10">
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">AI Resume Scoring</h3>
               <p className="text-gray-600 leading-relaxed">
-                Upload your resume and get an instant score out of 100. Our AI identifies weaknesses and suggests actionable keywords to pass ATS filters.
+                Upload your resume to receive an AI-generated score out of 100. Identify skill gaps, keyword mismatches, and actionable improvements to optimize ATS compatibility.
               </p>
             </div>
 
@@ -66,7 +66,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Target Company Match</h3>
               <p className="text-gray-600 leading-relaxed">
-                Select a target company and see exactly how well your resume fits their specific requirements.
+                Benchmark your resume against role-specific requirements from 80+ top companies. Get detailed compatibility scores and tailored improvement in
               </p>
             </div>
 
@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">ATS Score Checker</h3>
               <p className="text-gray-600 leading-relaxed">
-                See how your resume scores against Applicant Tracking Systems used by top companies.
+                Evaluate your resume against modern ATS filtering logic, including keyword density, formatting compliance, and skill alignment metrics.
               </p>
             </div>
           </div>
